@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EndBug/add-and-commit.git"
+    "url": "git+https://github.com/iVasilevGemark/add-and-commit"
   },
   "keywords": [
     "github",
@@ -27,9 +27,9 @@
   "author": "Federico Grandi <fgrandi30@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EndBug/add-and-commit/issues"
+    "url": "https://github.com/iVasilevGemark/add-and-commit/issues"
   },
-  "homepage": "https://github.com/EndBug/add-and-commit#readme",
+  "homepage": "https://github.com/iVasilevGemark/add-and-commit/add-and-commit#readme",
   "dependencies": {
     "@actions/core": "^1.2.7",
     "actions-toolkit": "github:EndBug/actions-toolkit#core-actions",
