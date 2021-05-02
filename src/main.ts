@@ -34,6 +34,7 @@ core.info(`Running in ${baseDir}`)
 
   core.info('> Checking for uncommitted changes in the git working tree...')
   const changedFiles = (await git.diffSummary(['--cached'])).files.length
+  core.info('> Changed files: ${changedFiles}')
   if (changedFiles > 0) {
     core.info(`> Found ${changedFiles} changed files.`)
 
