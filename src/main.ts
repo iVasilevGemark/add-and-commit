@@ -33,6 +33,7 @@ core.info(`Running in ${baseDir}`)
   } else core.info('> No files to remove.')
 
   core.info('> Checking for uncommitted changes in the git working tree...')
+  core.info('> 11')
   const changedFiles = (await git.diffSummary(['--cached'])).files.length
   core.info('> Changed files: ${changedFiles}')
   if (changedFiles > 0) {
